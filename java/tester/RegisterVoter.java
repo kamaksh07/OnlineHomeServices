@@ -20,6 +20,7 @@ public class RegisterVoter {
 		}catch(Exception e)
 		{ e.printStackTrace();}
 		
+		System.out.println("Changes");
 
 	}
 
