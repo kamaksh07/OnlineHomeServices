@@ -78,6 +78,7 @@ public class VoterDaoImpl implements IVoterDao {
 		try 
 		{
 			String Jaql="select u from Voter u where u.name=:nm and u.password=:pass";
+			System.out.println("hello");
 			vtr=session.createQuery(Jaql,Voter.class).setParameter("nm", name).setParameter("pass", pwd).getSingleResult();
 			tx.commit();
 		}catch(RuntimeException e)
