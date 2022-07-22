@@ -13,6 +13,7 @@ public class getAllVotersList {
 		{
 			VoterDaoImpl vtrdao= new VoterDaoImpl();
 			vtrdao.getAllVoterDetails().forEach(System.out::println);
+			System.out,println("new");
 			
 			
 		}catch(Exception e)
