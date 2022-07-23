@@ -1,5 +1,7 @@
 package pojos;
 import javax.persistence.*;
+
+// this is branch07
 @Entity
 @Table(name="candidates")
 public class Candidate {
